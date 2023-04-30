@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Worldwide Musical Tutors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Worldwide Musical Tutors</h1>
+      <p>Learn music from the comfort of your home</p>
+      <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-container">
+        <div class="service">
+          <img src="images/guitar.jpg" alt="Guitar Lessons">
+          <h3>Guitar Lessons</h3>
+          <p>Learn to play the guitar with our expert tutors.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service">
+          <img src="images/piano.jpg" alt="Piano Lessons">
+          <h3>Piano Lessons</h3>
+          <p>Learn to play the piano with our expert tutors.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service">
+          <img src="images/violin.jpg" alt="Violin Lessons">
+          <h3>Violin Lessons</h3>
+          <p>Learn to play the violin with our expert tutors.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Worldwide Musical Tutors was founded in 2023 with the mission to provide quality music education to students of all ages and skill levels. Our expert tutors have years of experience teaching music and are dedicated to helping our students reach their full potential.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Worldwide Musical Tutors. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
