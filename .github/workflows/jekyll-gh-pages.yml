@@ -1,0 +1,19 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build and Deploy
+        uses: helaili/jekyll-action@v2.1.1
+        with:
+          build-script: jekyll build
+          deploy-key: ${{ secrets.DEPLOY_KEY }}
+          deploy-repo: FlyingDucks32/FlyingDucks32.github.io
+          deploy-branch: main
